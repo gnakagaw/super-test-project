@@ -1,2 +1,2 @@
 # super-test-project
-Awesome! This is a supre test projetc.
+Awesome! This is a super test project.
