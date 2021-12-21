@@ -6,4 +6,4 @@ puts(AWS_SECRET_ACCESS_KEY)
 puts("10 is #{'10'.to_i}")
 puts("zeebra is not zebra!")
 
-puts("foo")
+puts("bar")
