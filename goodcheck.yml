@@ -1,0 +1,8 @@
+rules:
+  - id: kaiten-yaki
+    pattern: 今川焼き
+    message: 「今川焼き」ではなく、「回転焼き」ではありませんか？
+    fail:
+      - 今川焼きを食べる
+    pass:
+      - 回転焼きを食べる        
