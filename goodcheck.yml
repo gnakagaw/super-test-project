@@ -1,4 +1,10 @@
 rules:
+  - id: important parameter
+    pattern:
+      - SUPER_IMPORTANT_PARAMETER
+    message: このパラメータは非常に重要なパラメータであり、通常は変更する必要がありません。本当に変更してよいか注意深く確認してください。
+    justification: 意図してこのパラメータを変更する場合
+
   - id: kaiten-yaki
     pattern: 今川焼き
     message: 「今川焼き」ではなく、「回転焼き」ではありませんか？
